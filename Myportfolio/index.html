@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer" />
+
+  <!-- Your CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <title>My Portfolio</title>
+</head>
+<body>
+  <!-- NAVBAR -->
+    <nav>
+        <div class="left">
+             <a href="/">My Portfolio</a>
+        </div>
+
+        <div class="right">
+            <a href="https://github.com/ray1434" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-github"></i>
+                <span>Github</span>
+            </a>
+
+            <a href="https://www.linkedin.com/in/ray-vincent-ma-at-01212537b/" target="_blank" rel="noopener noreferrer">
+                <i class="fa-brands fa-linkedin"></i>
+                <span>Linkedin</span>
+            </a>
+
+            <a href="mailto:rayvincentmaat@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Gmail</span>
+            </a>
+        </div>
+    </nav>
+
+    <main>
+        <!-- SECTION 1: Hero -->
+        <section class="hero-section">
+            <div class="text">
+                <h2>Hi I'm Ray</h2>
+                <p>
+                 Creative web designer with experience in making attractive and easy-to-use websites.
+                 Skilled in design tools and coding basics.
+                 Passionate about helping brands stand out online.
+                </p>
+                <div class="links">
+                    <a href="#skills">
+                        <i class="fa-solid fa-code"></i>
+                        <span>Skills</span>
+                    </a>
+
+                    <a href="#project">
+                        <i class="fa-solid fa-file"></i>
+                        <span>Projects</span>
+                    </a>
+
+                    <a href="#contact">
+                        <i class="fa-solid fa-envelope"></i>
+                        <span>Contacts</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="headshot">
+                 <img src="images/ray.jpg" alt="Ray" />
+            </div>
+        </section>
+
+        <!-- SECTION 2: Skills -->
+        <section id="skills" class="skills-section">
+            <h2>Skills</h2>
+            <div class="text">
+               Here are some of my core skills and tools I excel at:
+            </div>
+
+            <div class="cells">
+                <div class="cell">
+                    <img src="images/html2.png" alt="HTML Logo" />
+                    <span>HTML</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/css2.png" alt="CSS Logo" />
+                    <span>CSS</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/javascript2.png" alt="JavaScript Logo" />
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="cell">
+                    <img src="images/photoshop2.png" alt="Photoshop Logo" />
+                    <span>Photoshop</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 3: Projects -->
+        <section id="project" class="projects-section">
+          <h2>Projects</h2>
+            <div class="project-cards">
+                <!-- Project Card 1 -->
+                <div class="project-card">
+                    <img src="images/project1.png" alt="Project 1 Image" class="project-img" />
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of this project, highlighting key features or technologies used.</p>
+                    <a href="https://github.com/ray14344/project1" target="_blank" class="btn">View Details</a>
+                </div>
+                <!-- Project Card 2 -->
+                <div class="project-card">
+                    <img src="images/project2.jpg" alt="Project 2 Image" class="project-img" />
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of this project, highlighting key features or technologies used.</p>
+                    <a href="https://github.com/ray14344/project2" target="_blank" class="btn">View Details</a>
+                </div>
+                <!-- Add more project 3 -->
+                <div class="project-card">
+                    <img src="images/project3.jpg" alt="Project 3 Image" class="project-img" />
+                    <h3>Project Title 3</h3>
+                    <p>A brief description of this project, highlighting key features or technologies used.</p>
+                    <a href="https://github.com/ray14344/project3" target="_blank" class="btn">View Details</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECTION 4: Contact (empty for now) -->
+        <section class="contact-section" id="contact">
+            <h2>Contact Me</h2>
+            <p class="contact-description">
+                Feel free to reach out for collaborations, questions, or just to say hello!
+            </p>
+            <div class="contact-details">
+                <div class="contact-item">
+                  <i class="fa-solid fa-envelope"></i>
+                  <a href="mailto:rayvincentmaat@gmail.com">rayvincentmaat@gmail.com</a>
+                </div>
+                <div class="contact-item">
+                  <i class="fa-brands fa-github"></i>
+                  <a href="https://github.com/settings/profile" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
+                </div>
+                <div class="contact-item">
+                   <i class="fa-brands fa-linkedin"></i>
+                  <a href="https://www.linkedin.com/in/ray-vincent-ma-at-01212537b/" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a>
+                </div>
+                <div class="contact-item">
+                   <i class="fa-solid fa-phone"></i>
+                   <a href="tel:09026706436">09206706436</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Your other scripts and code -->
+    <script src="script.js"></script>
+</body>
+</html>
